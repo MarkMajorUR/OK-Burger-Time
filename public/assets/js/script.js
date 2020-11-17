@@ -31,6 +31,7 @@ $(function () {
           type: "POST",
           data: newBurger,
       }).then(function () {
+        console.log("newest")
           // Reload the page to get the updated list
           location.reload();
       });
