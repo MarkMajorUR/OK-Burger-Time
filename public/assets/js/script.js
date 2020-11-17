@@ -22,7 +22,7 @@ $(function () {
       event.preventDefault();
 
       var newBurger = {
-          name: $("#burgername").val().trim(),
+          name: $("#burgName").val().trim(),
           devoured: $("[name=devoured]:checked").val().trim(),
       };
 
